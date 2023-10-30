@@ -240,6 +240,8 @@ type sysfs_gbe, fs_type, sysfs_type;
 type sysfs_mtk_fpsgo, fs_type, sysfs_type;
 type sysfs_mtk_core_ctl, fs_type, sysfs_type;
 
+# for mt-ramdump reset
+type proc_mrdump_rst, fs_type, proc_type;
 # Date : 2019/09/17
 # Purpose: Allow powerhal to control cache audit
 type sysfs_cache_ctrl, fs_type, sysfs_type;
